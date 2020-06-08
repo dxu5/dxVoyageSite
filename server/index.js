@@ -15,6 +15,7 @@ const config = require("./config/key");
 //   .catch(err => console.error(err));
 
 const mongoose = require("mongoose");
+console.log(config.mongoURI);
 const connect = mongoose
   .connect(config.mongoURI, {
     useNewUrlParser: true,
