@@ -13,6 +13,7 @@ function ProductImage(props) {
             thumbnail: `/${item}`,
           });
         });
+      console.log(images);
       setImages(images);
     }
   }, [props.detail]);
