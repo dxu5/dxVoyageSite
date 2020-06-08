@@ -43,7 +43,7 @@ app.use("/api/product", require("./routes/product"));
 app.use("/uploads", express.static("uploads"));
 
 // Serve static assets if in production
-if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV == "production") {
   // Set static folder
   // All the javascript and css files will be read and served from this folder
   app.use(express.static("client/build"));
