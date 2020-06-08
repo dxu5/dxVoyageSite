@@ -15,6 +15,7 @@ function DetailProductPage(props) {
         setProduct(response.data[0]);
       }
     );
+    console.log(Product);
   }, []);
 
   const addToCartHandler = (productId) => {
