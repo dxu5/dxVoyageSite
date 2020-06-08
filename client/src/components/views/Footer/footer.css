@@ -1,0 +1,6 @@
+.footerIcon {
+  transition: all 0.2s ease-in-out;
+}
+.footerIcon:hover {
+  transform: scale(1.5);
+}
